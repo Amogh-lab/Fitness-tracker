@@ -2,16 +2,16 @@
     position: absolute;
     top: 50px;
     left: 20px;
-    width: 60px;
+    width: 90px;
     height: 60px;
     background-color: rgb(231, 107, 24);;
-    border-radius: 50%;
+    border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     z-index: 999;
-    box-shadow: 0 0 8px rgb(255, 255, 255);
+    /* box-shadow: 0 0 8px rgb(255, 255, 255); */
     transition: transform 0.3s ease;
   }
   
@@ -35,4 +35,34 @@
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
   }
+  .logo-icon {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+  }
   
+
+  /* .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 999;
+    transition: transform 0.3s ease;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+  }
+  
+  .logo-icon {
+    color: rgb(231, 107, 24);
+    font-size: 28px;
+  }
+   */

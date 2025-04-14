@@ -1,98 +1,107 @@
 .layout {
-    display: flex;
-    min-height: 100vh;
-    /* background-image: url('../assets/ambitious-studio-rick-barrett-AcFdytAyJgk-unsplash.jpg'); */
-    background-size: cover;
-    background-position: center;
-  }
+  display: flex;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
 
-  .detail {
-    max-width: 800px;  
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 300px;
-    margin-top: 0px;
-  }
-  
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.219); 
+  z-index: -1;
+}
 
-  .Title {
-    font-size: 7.5rem;
-    font-family: 'Poppins', sans-serif;
-    color: rgb(221, 101, 21);
-    margin-bottom: 10px;
-    line-height: 1.1;
-  }
-  
+.detail {
+  max-width: 800px;  
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 300px;
+  margin-top: 0px;
+  /* z-index: 1000; */
+}
 
-  .SubTitle {
-    font-size: 1.7rem;
-    color: rgba(0, 0, 0, 0.61);
-    font-weight: 300;
-    max-width: 700px;
-    margin: 0 auto;
-    line-height: 1.6;
-  }
-  .sidebar-toggle {
-    position: absolute;
-    top: 50px;
-    right: 20px;
-    background: rgb(231, 107, 24);
-    color: white;
-    border: none;
-    font-size: 25px;
-    border-radius: 30px;
-    padding: 15px 20px;
-    cursor: pointer;
-    z-index: 1500;
-    transition: 0.1s;
-  }
-  
-  .sidebar-toggle:hover {
-    background-color: #333;
-  }
-  
-  .daydate{
-    position: fixed; 
-    top: 54%;
-    left: 80%;  
-    z-index: 100;
-  }
-  
-  .Bottom-details {
-    position: absolute;
-    bottom: 40px;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    background: transparent;
-  }
+.Title {
+  font-size: 7.5rem;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(221, 101, 21);
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
 
-  .clock-wrapper {
-    width: 205vh;
-    height: 42vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 15%; 
-    top: 30%;  
-  }
-  
-  .image{
-    background-image: url('../assets/back1.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 20%; 
-    height: 30%; 
-    position: absolute;
-    bottom: 0;
-    left: -4.2%;
-    transform: scaleX(-1);
-    transform: rotate(180deg);
-    z-index: -1;
-    color: rgba(255, 255, 255, 0.692);
-  }
+.SubTitle {
+  font-size: 1.7rem;
+  color: rgba(0, 0, 0, 0.438);
+  font-weight: 300;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.sidebar-toggle {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  background: rgb(231, 107, 24);
+  color: white;
+  border: none;
+  font-size: 25px;
+  border-radius: 30px;
+  padding: 15px 20px;
+  cursor: pointer;
+  z-index: 1500;
+  transition: 0.1s;
+}
+
+.sidebar-toggle:hover {
+  background-color: #333;
+}
+
+.daydate {
+  position: fixed; 
+  top: 54%;
+  left: 80%;  
+  z-index: 100;
+}
+
+.Bottom-details {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background: transparent;
+}
+
+.clock-wrapper {
+  width: 110%;
+  height: 42vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 15%; 
+  top: 30%;  
+}
+
+.image {
+  background-image: url('../assets/back1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 10%; 
+  height: 15%; 
+  position: absolute;
+  bottom: 0;
+  left: -4.2%;
+  transform: rotate(180deg);
+  z-index: -2;
+  opacity: 0.7;
+}

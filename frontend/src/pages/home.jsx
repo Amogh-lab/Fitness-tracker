@@ -16,6 +16,7 @@ const Home = () => {
 
   return (
     <div className="layout">
+        <div className="overlay"></div>
       <Navbar />
       <Logo/>
       <button className="sidebar-toggle" onClick={toggleSidebar}>☰</button>
@@ -41,7 +42,7 @@ const Home = () => {
         <Bottombar/>
       </div>
 
-      <div className='image'></div>
+      {/* <div className='image'></div> */}
     </div>
   );
 };

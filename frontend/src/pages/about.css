@@ -1,0 +1,71 @@
+.about-container {
+    padding: 60px;
+    margin-top: 5%;
+    /* font-family: 'Poppins', sans-serif; */
+    color: rgb(35, 35, 35);
+    background-color: transparent;
+  }
+  
+  .about-title {
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(221, 101, 21);
+    margin-bottom: 20px;
+  }
+  
+  .about-subtitle {
+    font-size: 1.5rem;
+    max-width: 900px;    
+    line-height: 1.8;
+    margin-left: 25%;
+    color: rgba(0, 0, 0, 0.65);
+    margin-bottom: 40px;
+  }
+  
+  .features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  .feature-card {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    max-width: 250px;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .feature-icon {
+    font-size: 3rem;
+    color: rgb(231, 107, 24);
+    margin-bottom: 15px;
+  }
+  
+  .about-footer {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 40px;
+  }
+  
+  .about-footer a {
+    color: rgb(231, 107, 24);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+    transition: 0.2s;
+  }
+  
+  .about-footer a:hover {
+    color: rgb(0, 0, 0);
+  }
+  
