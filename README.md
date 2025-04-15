@@ -1,8 +1,8 @@
-# 🏋️ Fitness Tracker with ML Coach
+#  Fitness Tracker with ML Coach
 
 A full-stack fitness tracking web app that helps you log workouts, view progress, and get personalized predictions and tips using machine learning.
 
-## 🚀 Features
+##  Features
 
 - Log workout details (exercise, reps, sets, weight)
 - Visualize workout history
@@ -10,7 +10,7 @@ A full-stack fitness tracking web app that helps you log workouts, view progress
 - Personalized coaching tips using your data
 - Dockerized microservices: Frontend, Backend, ML API
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: React.js
 - **Backend**: Node.js + Express
@@ -18,14 +18,14 @@ A full-stack fitness tracking web app that helps you log workouts, view progress
 - **Database**: SQLite / PostgreSQL
 - **Containerization**: Docker + Docker Compose
 
-## 🧠 ML Model
+##  ML Model
 
 The ML model uses regression and classification to:
 - Predict future performance (e.g. expected weight you can lift)
 - Detect progress trends (e.g. plateau, improving, needs deload)
 - Suggest training tips
 
-## 📦 How to Run (Coming Soon)
+##  How to Run (Coming Soon)
 
 ```bash
 git clone https://github.com/your-username/fitness-tracker-ml.git
