@@ -15,7 +15,7 @@ A full-stack fitness tracking web app that helps you log workouts, view progress
 - **Frontend**: React.js
 - **Backend**: Node.js + Express
 - **ML Service**: Python (Flask/FastAPI + scikit-learn)
-- **Database**: SQLite / PostgreSQL
+- **Database**: PostgreSQL
 - **Containerization**: Docker + Docker Compose
 
 ##  ML Model
